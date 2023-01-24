@@ -7,6 +7,34 @@
     <title>Formulário</title>
 </head>
 <body>
-  
+    <h1 class="title">Exemplo de Formulário</h1>
+    <form action="vadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome  ">Nome: </label>
+            </p>
+            <p>
+                <input type="text" name="nome" id="inome" required autocomplete="name" minlength="5" maxlength="30">
+            </p>
+            <p>
+                <label for="iemail">E-mail: </label>
+            </p>
+            <p>
+                <input type="email" name="email" id="iemail" required autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone: </label>
+            </p>
+            
+            <p>
+                <input type="tel" name="tem" id="itel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx) xxxxx-xxxx">
+            </p>
+        </fieldset>
+        <p>
+            <input class="btn"  type="submit" value="Enviar">
+            <input class="btn" type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
