@@ -48,6 +48,21 @@ form {
     margin-top: 10px;
 }
 
+@media screen and (min-width: 10px) and (max-width: 599px) {
+    form {
+        width: 50%;
+     }
+ 
+     body {
+         background-image: linear-gradient(to top, #272727,  #808080);
+         font-size: 1em;
+     }
+     
+     .input {
+         width: 50%;
+     }
+}
+
 @media screen and (min-width: 600px) and (max-width: 768px) {
     form {
        width: 80%;
@@ -55,7 +70,7 @@ form {
 
     body {
         background-image: linear-gradient(to top, #808080, #272727);
-        font-size: 50%;
+        font-size: 1em;
     }
     
     .input {
