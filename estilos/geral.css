@@ -51,6 +51,10 @@ form {
     form {
        width: 50%;
     }
+
+    body {
+        background-image: linear-gradient(to top, #808080, #272727);
+    };
 }
 
 
