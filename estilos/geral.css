@@ -9,13 +9,6 @@ body {
     height: 100vh;
 }
 
-.title {
-    color: #fff;
-    text-align: center;
-    font-size: 1em;
-    padding-top: 10px;
-   
-}
 
 .form {
     position: relative;
